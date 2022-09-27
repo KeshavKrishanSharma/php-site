@@ -1,0 +1,23 @@
+
+
+.swiper {
+
+ 
+ position: center;
+
+ 
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  position: center;
+  min-height: 200px;
+  min-width: 200px;
+  max-width: 700px;
+  max-height: 700px;
+}
