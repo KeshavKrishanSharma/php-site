@@ -79,13 +79,13 @@
               >
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Rooms</a>
+              <a class="nav-link" href="#ride">Rides</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Facilities</a>
+              <a class="nav-link" href="#service">Facilities</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Contact us</a>
+              <a class="nav-link" href="#contact">Contact us</a>
             </li>
             <li class="nav-item me-3">
               <a class="nav-link" href="#">About us</a>
