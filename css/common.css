@@ -1,0 +1,12 @@
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+
+#bob:hover{
+    border-top-color:rgb(188, 111, 252) !important;
+}
+#bobc:hover{
+    border-top-color:rgb(188, 111, 252) !important;
+}

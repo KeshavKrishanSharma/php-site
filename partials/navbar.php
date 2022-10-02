@@ -57,7 +57,7 @@
       class="navbar navbar-expand-lg navbar-light bg-white px-lg-3 py-lg-2 shadow-sm sticky-top shadow-5-strong"
     >
       <div class="container-fluid">
-        <a class="navbar-brand me-5 fs-3 mer-font fw-bold" href="#"
+        <a class="navbar-brand me-5 fs-3 mer-font fw-bold" href="index.php"
           >Car Rento</a
         >
         <button
@@ -74,7 +74,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active me-3" aria-current="page" href="#"
+              <a class="nav-link active me-3" aria-current="page" href="index.php"
                 >Home</a
               >
             </li>
@@ -88,7 +88,7 @@
               <a class="nav-link" href="#contact">Contact us</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">About us</a>
+              <a class="nav-link" href="about.php">About us</a>
             </li>
           </ul>
           <form class="d-flex">

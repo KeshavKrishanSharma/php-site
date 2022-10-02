@@ -16,7 +16,10 @@ include('partials/navbar.php');
     <link rel="stylesheet" href="css/carousel.css">
     <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Niconne&display=swap" rel="stylesheet">
-
+    <link href="css/customsize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title> Car Rento</title>
     <style>
         .steps {
@@ -41,18 +44,13 @@ include('partials/navbar.php');
 
         }
 
-
+        #pop {
+            box-shadow: rgba(233, 46, 240, 0.4) -5px 5px, rgba(46, 217, 240, 0.3) -10px 10px, rgba(169, 46, 240, 0.2) -15px 15px, rgba(179, 46, 240, 0.1) -20px 20px, rgba(59, 46, 240, 0.05) -25px 25px;
+        }
     </style>
 </head>
 
 <body>
-
-
-
-
-
-
-
 
     <!-- header -->
     <header class="sectionA ">
@@ -84,8 +82,6 @@ include('partials/navbar.php');
 
 
     </header>
-
-
 
 
     <!-- steps to book -->
@@ -163,17 +159,8 @@ include('partials/navbar.php');
     </section>
 
 
-
-
-
-
-
-    <!-- diplay service -->
-    <div id="service"></div>
-    <br>
-    <br>
-
-    <!-- check for availability -->
+    <!-- top  deals -->
+    <div id="service"></div><br><br>
     <section class="sectionService">
 
 
@@ -181,64 +168,70 @@ include('partials/navbar.php');
             <h1 class="mt-2"> Explore top Deals From Top Explorers</h1>
         </div>
         <!-- Swiper -->
-        <div id="bc" class="container-fluid " style="height:65vh ;">
+        <div class="container-fluid  " style="height:65vh ;">
+
             <div class="swiper mySwiper ">
 
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="position-absolute top-0 start-50 translate-middle-x">
-                            <img src="https://www.ccarprice.com/products/BMW_430i_xDrive_Convertible_2022.jpg" />
+                <div class="swiper-wrapper  ">
+                    <div class="swiper-slide ">
+                        <div class="position-absolute top-0 start-50 translate-middle-x ">
+                            <img class=" d-block w-100"
+                                src="https://www.ccarprice.com/products/BMW_430i_xDrive_Convertible_2022.jpg" />
                         </div>
                     </div>
 
                     <div class="swiper-slide">
-                        <div class="position-absolute top-0 start-50 translate-middle-x">
-                            <img
+                        <div class="position-absolute  top-0 start-50 translate-middle-x">
+                            <img class=" d-block w-100"
                                 src="https://imgd.aeplcdn.com/0x0/n/cw/ec/115453/sonet-right-front-three-quarter.jpeg?isig=0" />
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="position-absolute top-0 start-50 translate-middle-x">
-                            <img
+                            <img class=" d-block w-100"
                                 src="https://www.hyundai.com/content/dam/hyundai/au/en/models/side-profiles/2022-side-profiles/Hyundai_i30-SEDAN-Nline_Fiery-Red_Side-Profile_640x331.png" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="position-absolute top-0 start-50 translate-middle-x">
-                            <img src="https://www.ccarprice.com/products/BMW_Alpina_B8_Gran_Coupe_2022_1.jpg" />
+                            <img class=" d-block w-100"
+                                src="https://www.ccarprice.com/products/BMW_Alpina_B8_Gran_Coupe_2022_1.jpg" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="position-absolute top-0 start-50 translate-middle-x">
-                            <img src="https://static.autox.com/uploads/2021/03/Jeep-Wrangler-Image-4-.jpg" />
+                            <img class=" d-block w-100"
+                                src="https://static.autox.com/uploads/2021/03/Jeep-Wrangler-Image-4-.jpg" />
                         </div>
                     </div>
 
                     <div class="swiper-slide">
                         <div class="position-absolute top-0 start-50 translate-middle-x">
-                            <img src="https://www.jantacar.in/wp-content/uploads/2020/10/Mystic_Copper_Thar.jpg" />
+                            <img class=" d-block w-100"
+                                src="https://www.jantacar.in/wp-content/uploads/2020/10/Mystic_Copper_Thar.jpg" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="position-absolute top-0 start-50 translate-middle-x">
-                            <img src="https://www.ccarprice.com/products/Volvo-XC60-T5-Momentum-2021.jpg" />
+                            <img class=" d-block w-100"
+                                src="https://www.ccarprice.com/products/Volvo-XC60-T5-Momentum-2021.jpg" />
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="position-absolute top-0 start-50 translate-middle-x">
-                            <img
+                            <img class=" d-block w-100"
                                 src="https://www.vans.mercedes-benz.com/vans/en/sprinter/panel-van/body-variants/image-group/extralong-superhigh/_jcr_content/parsysmeta/meta/image.mq6.png/1627455555000.png" />
                         </div>
                     </div>
 
-                  
+
 
                 </div>
             </div>
         </div>
         <div class="text-center pb-5 ">
-            <a href="booking.php" class="btn cus">Book Now</a>
+            <a href="#showCarDeals" class="btn cus">Book Now</a>
         </div>
 
     </section>
@@ -246,8 +239,7 @@ include('partials/navbar.php');
 
 
 
-
-
+     <!-- sectionCheakUpDate-->
     <section class="sectionCheakUpDate">
         <div class="container p-lg-1 p-5">
             <div class="row">
@@ -270,7 +262,7 @@ include('partials/navbar.php');
 
                             <div class="col-md-3 mb-3">
                                 <label class="form-lable" style="font-weight: 500;">Adult</label>
-                           
+
                                 <select class="form-select shadow-none">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
@@ -280,7 +272,7 @@ include('partials/navbar.php');
                             </div>
                             <div class="col-md-2 mb-3">
                                 <label class="form-lable" style="font-weight: 500;">Children</label>
-                              
+
                                 <select class="form-select shadow-none">
                                     <option selected>Open this select menu</option>
                                     <option value="1">One</option>
@@ -300,129 +292,314 @@ include('partials/navbar.php');
     </section>
 
 
+    <!-- demo cars deals-->
 
-
-
-
-    <!-- Footer -->
-    <footer id="contact" class="text-center text-lg-start bg-dark text-white">
-        <!-- Section: Social media -->
-
-        <!-- Left -->
-        <div class="container text-center p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
-
-                <!-- Twitter -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
-                        class="fab fa-twitter"></i></a>
-
-                <!-- Google -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
-                        class="fab fa-google"></i></a>
-
-                <!-- Instagram -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
-                        class="fab fa-instagram"></i></a>
-
-                <!-- Linkedin -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;" href="#!" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
-                <!-- Github -->
-                <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
-                        class="fab fa-github"></i></a>
-            </section>
-            <!-- Section: Social media -->
+    <section id="showCarDeals">
+        <div class="my-5 px-4">
+            <h2 class="fw-bold text-center">Book your Car</h2>
+            <div class="h-line bg-dark"></div>
+          
         </div>
 
-        <!-- Section: Social media -->
+        <div class="container">
+            <div class="row">
+                
 
-        <!-- Section: Links  -->
-        <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
-                <div class="row mt-3">
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                        <!-- Content -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            <i class="fas fa-gem me-3"></i>Company name
-                        </h6>
-                        <p>
-                            Here you can use rows and columns to organize your footer content. Lorem ipsum
-                            dolor sit amet, consectetur adipisicing elit.
-                        </p>
+                <div class="col-lg-4 col-md-6 mb-5 px-4">
+                    <div id="bob" class="bg-white pt-0 rounded shadow p-4 border-top  border-warning border-4">
+                        <div class="card  border-0 ">
+                            <img src="https://media.zigcdn.com/media/model/2022/Sep/grand-1_195x130.jpg"
+                                class="card-img-top" />
+                            <div class="card-body pt-0">
+                                <h5 class="card-title">Car Name</h5>
+                                <h6 class="mb-3">
+                                    &#8377 1000 + &#8377 42/- Per KM</h6>
+                                <div class="features mb-3">
+                                    <h6>Features</h6>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap"> 4 seater</span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap">1490 cc </span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap">Petrol </span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap"> Vehicle number
+                                        XXXXxxX </span>
+                                </div>
+
+                                <div class="rating ">
+                                    <h6>Rating</h6>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer border-0 text-center bg-white">
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
                     </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Products
-                        </h6>
-                        <p>
-                            <a href="#!" class="text-reset">Angular</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">React</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Vue</a>
-                        </p>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">
-                            Useful links
-                        </h6>
-                        <p>
-                            <a href="#!" class="text-reset">Pricing</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Settings</a>
-                        </p>
-                        <p>
-                            <a href="#!" class="text-reset">Orders</a>
-                        </p>
-
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        <!-- Links -->
-                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                        <p>
-                            <i class="fas fa-envelope me-3"></i>
-                            info@example.com
-                        </p>
-                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-
-                    </div>
-                    <!-- Grid column -->
                 </div>
-                <!-- Grid row -->
-            </div>
-        </section>
-        <!-- Section: Links  -->
 
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-            © 2022 Copyright:
-            <a class="text-reset fw-bold" href="#">KESHAV KRISHAN SHARMA</a>
+
+               
+
+                <div class="col-lg-4 col-md-6 mb-5 px-4">
+                    <div id="bob" class="bg-white pt-0 rounded shadow p-4 border-top border-warning border-4">
+                        <div class="card  border-0 ">
+                            <img src="https://media.zigcdn.com/media/model/2022/Feb/swift-2_195x130.jpg"
+                                class="card-img-top" />
+                            <div class="card-body pt-0">
+                                <h5 class="card-title">Car Name</h5>
+                                <h6 class="mb-3">
+                                    &#8377 1000 + &#8377 42/- Per KM</h6>
+                                <div class="features mb-3">
+                                    <h6>Features</h6>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap"> 4 seater</span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap">1490 cc </span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap">Petrol </span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap"> Vehicle number
+                                        XXXXxxX </span>
+                                </div>
+
+                                <div class="rating ">
+                                    <h6>Rating</h6>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer border-0 text-center bg-white">
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-5 px-4">
+                    <div id="bob" class="bg-white pt-0 rounded shadow p-4 border-top  border-warning border-4">
+                        <div class="card  border-0">
+                            <img src="https://media.zigcdn.com/media/model/2020/Jun/maruti-dzire-2020-1_195x130.jpg"
+                                class="card-img-top" />
+                            <div class="card-body pt-0">
+                                <h5 class="card-title">Car Name</h5>
+                                <h6 class="mb-3">
+                                    &#8377 1000 + &#8377 42/- Per KM</h6>
+                                <div class="features mb-3">
+                                    <h6>Features</h6>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap"> 4 seater</span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap">1490 cc </span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap">Petrol </span>
+                                    <span class="badge rounded-pill bg-dark text-white text-wrap"> Vehicle number
+                                        XXXXxxX </span>
+                                </div>
+
+                                <div class="rating ">
+                                    <h6>Rating</h6>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                    <i class="fa-solid fa-star text-warning"></i>
+                                </div>
+                            </div>
+                            <div class="card-footer border-0 text-center bg-white">
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center pb-5 ">
+                <a href="booking.php" class="btn cus">Book Now</a>
+            </div>
         </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
+        </div>
+
+
+
+    </section>
+
+
+    <!-- testimonials-->
+    <section class="secionTestimonials">
+        <div class="container">
+            <div class="text-center p-5">
+                <h1>Testimonials</h1>
+            </div>
+            <div class="container">
+                <div class="swiper mySwiperTwo">
+                    <div class="swiper-wrapper mb-5">
+
+                        <div id="pop" class="swiper-slide bg-white p-4  ">
+                            <div class="profile d-flex align-items-center p-4">
+                                <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+                                    width="40px" ; height="40px">
+                                <h6 class="m-0 ms-2">Random user</h6>
+                            </div>
+                            <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates
+                                veniam iure
+                                pariatur, eum placeat ea eaque at, hic blanditiis nesciunt nemo! Consequatur, nisi
+                                eveniet! Modi omnis excepturi error quis?
+                            </p>
+                            <div class="rating mb-4 ms-3">
+                                <h6>Rating</h6>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+
+
+                        <div id="pop" class="swiper-slide bg-white p-4  ">
+                            <div class="profile d-flex align-items-center p-4">
+                                <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+                                    width="40px" ; height="40px">
+                                <h6 class="m-0 ms-2">Random user</h6>
+                            </div>
+                            <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates
+                                veniam iure
+                                pariatur, eum placeat ea eaque at, hic blanditiis nesciunt nemo! Consequatur, nisi
+                                eveniet! Modi omnis excepturi error quis?
+                            </p>
+                            <div class="rating mb-4 ms-3">
+                                <h6>Rating</h6>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+
+
+                        <div id="pop" class="swiper-slide bg-white p-4  ">
+                            <div class="profile d-flex align-items-center p-4">
+                                <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+                                    width="40px" ; height="40px">
+                                <h6 class="m-0 ms-2">Random user</h6>
+                            </div>
+                            <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates
+                                veniam iure
+                                pariatur, eum placeat ea eaque at, hic blanditiis nesciunt nemo! Consequatur, nisi
+                                eveniet! Modi omnis excepturi error quis?
+                            </p>
+                            <div class="rating mb-4 ms-3">
+                                <h6>Rating</h6>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+
+
+                        <div id="pop" class="swiper-slide bg-white p-4  ">
+                            <div class="profile d-flex align-items-center p-4">
+                                <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+                                    width="40px" ; height="40px">
+                                <h6 class="m-0 ms-2">Random user</h6>
+                            </div>
+                            <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates
+                                veniam iure
+                                pariatur, eum placeat ea eaque at, hic blanditiis nesciunt nemo! Consequatur, nisi
+                                eveniet! Modi omnis excepturi error quis?
+                            </p>
+                            <div class="rating mb-4 ms-3">
+                                <h6>Rating</h6>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+
+
+                        <div id="pop" class="swiper-slide bg-white p-4  ">
+                            <div class="profile d-flex align-items-center p-4">
+                                <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+                                    width="40px" ; height="40px">
+                                <h6 class="m-0 ms-2">Random user</h6>
+                            </div>
+                            <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates
+                                veniam iure
+                                pariatur, eum placeat ea eaque at, hic blanditiis nesciunt nemo! Consequatur, nisi
+                                eveniet! Modi omnis excepturi error quis?
+                            </p>
+                            <div class="rating mb-4 ms-3">
+                                <h6>Rating</h6>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+
+
+                        <div id="pop" class="swiper-slide bg-white p-4  ">
+                            <div class="profile d-flex align-items-center p-4">
+                                <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+                                    width="40px" ; height="40px">
+                                <h6 class="m-0 ms-2">Random user</h6>
+                            </div>
+                            <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates
+                                veniam iure
+                                pariatur, eum placeat ea eaque at, hic blanditiis nesciunt nemo! Consequatur, nisi
+                                eveniet! Modi omnis excepturi error quis?
+                            </p>
+                            <div class="rating mb-4 ms-3">
+                                <h6>Rating</h6>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+
+
+                        <div id="pop" class="swiper-slide bg-white p-4  ">
+                            <div class="profile d-flex align-items-center p-4">
+                                <img src="https://i.pinimg.com/736x/8b/16/7a/8b167af653c2399dd93b952a48740620.jpg"
+                                    width="40px" ; height="40px">
+                                <h6 class="m-0 ms-2">Random user</h6>
+                            </div>
+                            <p class="ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae voluptates
+                                veniam iure
+                                pariatur, eum placeat ea eaque at, hic blanditiis nesciunt nemo! Consequatur, nisi
+                                eveniet! Modi omnis excepturi error quis?
+                            </p>
+                            <div class="rating mb-4 ms-3">
+                                <h6>Rating</h6>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                                <i class="fa-solid fa-star text-warning"></i>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <br><br><br><br><br>
+
+    <?php
+    include('partials/footer.php');
+    ?>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -445,6 +622,41 @@ include('partials/navbar.php');
             pagination: {
                 el: ".swiper-pagination",
             },
+        });
+    </script>
+
+    <script>
+        var swiper = new Swiper(".mySwiperTwo", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            slidesPerView: "3",
+            loop: true,
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            breakpoints: {
+                320: {
+                    slidesPerView: "1",
+                },
+                640: {
+                    slidesPerView: "1",
+                },
+                768: {
+                    slidesPerView: "2",
+                },
+                1024: {
+                    slidesPerView: "3",
+                }
+            }
         });
     </script>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
